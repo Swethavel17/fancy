@@ -1,0 +1,28 @@
+#navbar{
+    display:flex;
+    color:white;
+    justify-content: space-evenly;
+    background-color:red;
+    margin-top:0px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    justify-content: space-between;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+}
+ img{
+    width:99vw;
+    height:90vh;
+    display: block;
+} 
+

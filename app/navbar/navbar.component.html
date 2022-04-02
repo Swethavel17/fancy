@@ -1,0 +1,11 @@
+<div id="navbar">
+    <h1 id="title"> FANCY JEWELLERY </h1> 
+    <ul>
+        <li><a (click)="changeView()" routerLink="home">Home</a></li>
+        <li><a (click)="changeView()" routerLink="about">About</a></li>
+        <li><a (click)="changeView()" routerLink="contact">Contact us</a></li>
+        <li><a (click)="changeView()" routerLink="your-cart">Yourcart</a></li>
+        <li><a (click)="changeView()" routerLink="register">Signup</a></li>
+    </ul>
+</div>
+<img *ngIf="imgVisible" src="http://www.elegantbridalhairaccessories.com/wp-content/uploads/2013/12/StunningSilverIvoryDropPearlBridalJewelrySet.jpg" id="img" alt="">

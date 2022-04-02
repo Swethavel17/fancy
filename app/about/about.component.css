@@ -1,0 +1,22 @@
+body{
+    background-color:gray;
+}
+#shop{
+    color:blue;
+}
+#about{
+    position:absoute;
+    margin-left:60px;
+}
+#image{
+    position:absoute;
+    margin-left:700px;
+    margin-top:-300px;
+}
+#funName{
+    margin-left:700px;
+    margin-top:30px;
+}
+#buyit{
+    margin-left:150px;
+}

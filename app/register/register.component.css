@@ -1,0 +1,45 @@
+#body{
+  color:rgb(237, 241, 179);
+}
+#name{
+  position: absolute;
+  margin-left:600px;
+  margin-top:100px;
+  height:40px;
+  width:300px;
+  font-size:17px;
+}
+#email{
+   position: absolute;
+  margin-left:600px;
+  margin-top:140px;
+  height:40px;
+  width:300px;
+  font-size:17px;
+}
+#phonenumber{
+   position: absolute;
+  margin-left:600px;
+  margin-top:180px;
+  height:40px;
+  width:300px;
+  font-size:17px;
+}
+#password{
+   position: absolute;
+  margin-left:600px;
+  margin-top:230px;
+  height:40px;
+  width:300px;
+  font-size:17px;
+}
+#signup{
+   position: absolute;
+  margin-left:660px;
+  margin-top:280px;
+  height:40px;
+  width:180px;
+  background-color:green;
+  color:white;
+  font-size:20px;
+}

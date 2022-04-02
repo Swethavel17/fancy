@@ -1,0 +1,103 @@
+.backcolor{   
+    background-color:rgb(240, 234, 234);
+    width: 98.5%;
+    height: fit-content;
+    position: absolute;
+    padding: 10px 10px;
+    margin-top:-22px;
+}
+
+#headercolor{
+    background-color:rgb(175, 148, 219);
+    color: rgb(15, 1, 1);
+    width: 97%;  
+    padding: 15px 20px;
+    text-align: center;  
+}
+.categories{
+    font-size: 20px;
+    display: flex;
+    margin: 70px;
+    
+}
+.categories button{
+    width:160px;
+    height:70px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(100, 12, 241, 0.363)
+    
+}
+
+.categories button:hover {
+    color: black;
+    background-color: rgba(16, 236, 236, 0.87);
+}
+
+#cateItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.filteredCategories{
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+ .filteredCategories #foodContent{
+    margin-right: 100px;
+} 
+ /* .filteredCategories img{
+    width: 150px;
+    height: 130px;
+}  */
+figcaption{
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ .images{
+    transform: translateX(-50px);
+    transition: transform 0.5s;
+    box-shadow: 0 0 20px 0 rgb(70, 70, 145);
+} 
+.picture{
+    border: 1px solid black;
+    text-align: center ;
+    justify-content: center;
+    margin: 10px;
+    background-color:rgb(96, 230, 167)
+
+}
+.picture img {
+    width: 200px;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+
+.picture h3{
+    text-align: justify;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.filteredCategories .picture:hover{
+    transform: translateY(-15px);
+    color: white;
+    background-color: rgb(228, 153, 199);
+
+}
+#cart:hover{
+    color: rgb(199, 20, 160);
+    background-color: rgb(76, 213, 223);
+    cursor: pointer;
+}

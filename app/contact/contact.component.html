@@ -1,0 +1,27 @@
+<section>
+    <h1 id="cmd">To share your queries</h1>
+    <div id="container">
+        <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+            <div formGroupName="userData">
+                <div class="form-group">
+                    <input type="text" id="email" class="form-control" formControlName="email" placeholder="Enter your email"><br><br>
+                    <span *ngIf="!signupForm.get('userData.email').valid && signupForm.get('userData.email').touched">
+                    </span>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="phonenumber" class="form-control" formControlName="phonenumber" placeholder="Enter your phone number"><br><br>
+                    <span *ngIf="!signupForm.get('userData.phonenumber').valid && signupForm.get('userData.phonenumber').touched">
+                    </span>
+                </div>
+                <div class="form-group">
+                    <textarea formControlName="message" class="form-control" id="message" cols="30" rows="10"placeholder="Drop your queries here"></textarea><br><br>
+                </div>
+                <div class="button">
+                    <button class="btn btn-warning" type="submit" id="submit">Submit Form</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+ <p id="mobile">Phone Number: 9876543210</p>
+<p id="emailaddress">Email: fancy@gmail.com</p> 

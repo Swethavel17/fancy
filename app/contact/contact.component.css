@@ -1,0 +1,55 @@
+  #email{
+    position:absolute;
+    height:40px;
+    width:250px;  
+    margin-left: 600px;
+    margin-top: 100px;
+  }
+  #phonenumber{
+    position:absolute;
+    height:40px;
+    width:250px;  
+    margin-top:130px;
+    margin-left: 600px;
+  }
+  #message{
+    position:absolute;
+    height:180px;
+    width:250px;  
+    margin-top:165px;
+    margin-left: 600px;
+  }
+  #submit{
+    position:absolute;
+    height:40px;
+    width:150px; 
+    margin-top:340px;
+    margin-left:645px;
+  }
+  #contact{
+    position:absolute;
+    height:40px;
+    width:250px;
+    margin-left:700px;
+    margin-top:-150px;
+    justify-content:center;
+  }
+  #mobile{
+     position:absolute;
+     margin-top:460px;
+     margin-left:500px;
+  }
+  #emailaddress{
+     position:absolute;
+     margin-top:460px;
+     margin-left:800px;
+  }
+  #cmd{
+    position:absolute;
+    margin-left: 600px;
+    margin-top: 40px;
+
+  }
+ .body{
+   background-color: rgb(248, 140, 163);
+ }
